@@ -1,0 +1,18 @@
+package com.dbs.springbootjdbctemplate.apierror;
+
+import java.time.LocalDateTime;
+
+import org.springframework.http.HttpStatus;
+
+import lombok.Data;
+
+@Data
+public class ApiError {
+ 
+	
+	private HttpStatus status;
+	private LocalDateTime localDataTime;
+	private String message;
+	private String debugMessage;
+	
+}

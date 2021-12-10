@@ -1,0 +1,5 @@
+package com.payment.spring.service;
+
+public class SdnChecker {
+
+}

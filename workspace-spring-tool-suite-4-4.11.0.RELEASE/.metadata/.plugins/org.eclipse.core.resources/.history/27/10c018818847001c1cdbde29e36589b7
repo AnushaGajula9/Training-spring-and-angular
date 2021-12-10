@@ -1,0 +1,5 @@
+package com.dbs.employeemngt.mapper;
+
+public class EmployeeRowMapper {
+
+}

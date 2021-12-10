@@ -1,0 +1,14 @@
+package com.example.paymentproject.dto;
+
+import java.io.Serializable;
+
+public class customer implements Serializable  {
+	
+	private String customer_id;
+	private String account_holder_name;
+	private Long clear_balance;
+	private String overdraft;
+	
+	public cust
+
+}

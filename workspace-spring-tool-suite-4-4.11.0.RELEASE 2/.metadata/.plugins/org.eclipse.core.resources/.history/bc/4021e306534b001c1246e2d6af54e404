@@ -1,0 +1,33 @@
+package com.dbs.springbootjdbctemplate.service;
+
+import java.util.Optional;
+
+import com.dbs.springbootjdbctemplate.dto.Department;
+
+public class DepartmentServiceImpl implements DepartmentService {
+
+	@Override
+	public Department CreateDepartment(Department department) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Department UpdateDepartment(String deptId, Department department) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Department DeleteDepartment(String deptId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Department> getDepartmentById(String deptId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

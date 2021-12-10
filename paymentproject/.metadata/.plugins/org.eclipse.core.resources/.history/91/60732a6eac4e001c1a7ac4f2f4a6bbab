@@ -1,0 +1,5 @@
+package com.example.paymentproject.controller;
+
+public class CustomerController {
+
+}

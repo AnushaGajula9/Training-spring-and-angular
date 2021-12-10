@@ -1,0 +1,20 @@
+package com.dbs.springbootjdbctemplate.advice;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+import com.dbs.springbootjdbctemplate.exception.EntityNotFoundException;
+
+
+@ControllerAdvice
+
+public class EmployeeControllerAdvice {
+	 
+	@ExceptionHandler(EntityNotFoundException.class)
+	
+	protected ResponseEntity<Object>handleNotFoundEntity(EntityNotFoundException e){
+		return null;
+	}
+	
+}

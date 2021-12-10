@@ -1,0 +1,5 @@
+package com.dbs.employeemngt.dto;
+
+public class Employee {
+
+}

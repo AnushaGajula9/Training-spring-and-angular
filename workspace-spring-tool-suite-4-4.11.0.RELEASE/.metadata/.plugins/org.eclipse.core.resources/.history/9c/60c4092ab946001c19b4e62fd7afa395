@@ -1,0 +1,5 @@
+package com.dbs.employeemngt.repository;
+
+public interface EmployeeRepository {
+
+}

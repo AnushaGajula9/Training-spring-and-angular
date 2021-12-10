@@ -1,0 +1,14 @@
+package com.dbs.employeemngt.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.core.env.Environment;
+
+@Configuration 
+@ComponentScan(basePackages = "com.dbs.employeemngt") 
+@PropertySource("classpath: application.properties")
+public class Config {
+
+	private Environment environment;
+}

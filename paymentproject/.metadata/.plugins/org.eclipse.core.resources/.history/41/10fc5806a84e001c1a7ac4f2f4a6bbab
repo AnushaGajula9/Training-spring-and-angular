@@ -1,0 +1,5 @@
+package com.example.paymentproject.service;
+
+public interface CustomerService {
+
+}

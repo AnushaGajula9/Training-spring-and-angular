@@ -1,0 +1,8 @@
+package com.dbs.employeemngt.exception;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.dbs.employeemngt.exception
+	}
+}
+

@@ -1,0 +1,5 @@
+package com.dbs.employeemngt.config;
+
+public class Config {
+
+}
